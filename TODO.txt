@@ -1,0 +1,15 @@
+--TODO
+> camera 
+  DONE -- make it follow player
+  DONE -- zoom proportional to player size
+> background
+  -- implement a Perlin Noise algorithm into the background
+    - 
+> attacking
+  -- animation DONE :) 
+    !!NOTE - the cross/boomerang is being thrown and it comes back
+
+--BUGS
+> attack goes in a square pattern (diagonals are longer than horizontal/vertical attacks) - FIXED - fix was to multiply non-diagonal attacks by *sqrt(2)
+> dash doesn't work - FIXED (?)
+> gameOver screen doesn't work properly - it moves
