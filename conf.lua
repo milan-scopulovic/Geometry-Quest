@@ -2,7 +2,7 @@ function love.conf(t)
   t.window.title = "Geometry Quest"
   t.window.icon = "icon/character.png"
   
-  -- t.version = "1.0.0"
+  -- t.version = "0.1.0"
   t.identity = "data/saves"
   t.console = false -- windows only
   t.externalstorage = false -- android only
